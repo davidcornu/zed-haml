@@ -1,6 +1,5 @@
-(text_content) @string
-(name) @type
+(tag_name) @type
 (ruby_block_run "-" @keyword)
 (ruby_block_output "=" @keyword)
-(class) @string
-(id) @string
+(class) @property
+(id) @property
