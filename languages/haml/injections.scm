@@ -1,5 +1,5 @@
-((ruby_block_run) @content
+((ruby_code) @content
     (#set! language ruby))
 
-((ruby_block_output) @content
+((ruby_attributes) @content
     (#set! language ruby))
