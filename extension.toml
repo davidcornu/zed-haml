@@ -1,6 +1,6 @@
-id = "zed-haml"
+id = "haml"
 name = "Haml"
-version = "0.0.2"
+version = "0.0.3"
 schema_version = 1
 authors = ["David Cornu <me@davidcornu.com>"]
 description = "Haml template support"
