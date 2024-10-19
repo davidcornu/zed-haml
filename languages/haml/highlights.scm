@@ -3,3 +3,4 @@
 (ruby_block_output "=" @keyword)
 (class) @property
 (id) @property
+(comment) @comment
