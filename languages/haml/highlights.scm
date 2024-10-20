@@ -3,4 +3,10 @@
 (ruby_block_output "=" @keyword)
 (class) @property
 (id) @property
+
+[
+  (quoted_attribute_value)
+] @string
+
+(text_content) @string
 (comment) @comment
