@@ -9,3 +9,4 @@
 ] @string
 
 (text_content) @string
+(comment) @comment
