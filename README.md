@@ -19,7 +19,7 @@ The complete docs on extension development are here: https://zed.dev/docs/extens
 2. Tag that commit with the new version number (e.g. `v0.0.1`)
     ```
     git tag v0.0.1
-    git push v0.0.1
+    git push origin v0.0.1
     ```
 3. Create a new GitHub release (https://github.com/davidcornu/zed-haml/releases/new) for that tag. The automatically-generated release notes should suffice.
 4. In https://github.com/zed-industries/extensions/
