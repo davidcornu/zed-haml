@@ -1,6 +1,6 @@
 id = "haml"
 name = "Haml"
-version = "0.0.6"
+version = "0.0.7"
 schema_version = 1
 authors = ["David Cornu <me@davidcornu.com>"]
 description = "Haml template support"
@@ -8,4 +8,4 @@ repository = "https://github.com/davidcornu/zed-haml"
 
 [grammars.haml]
 repository = "https://github.com/vitallium/tree-sitter-haml"
-rev = "f99259f8a2e6600f5cd5f87b42648db2519e6f73"
+rev = "5dedefd955eaaadec309357879a46edf932945cf"
