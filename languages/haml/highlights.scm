@@ -8,5 +8,5 @@
   (quoted_attribute_value)
 ] @string
 
-(text_content) @string
+(verbatim_string) @string
 (comment) @comment
