@@ -1,6 +1,6 @@
 id = "haml"
 name = "Haml"
-version = "0.0.7"
+version = "0.1.0"
 schema_version = 1
 authors = ["David Cornu <me@davidcornu.com>"]
 description = "Haml template support"
