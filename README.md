@@ -1,7 +1,7 @@
 # [Haml](https://haml.info/) syntax highlighting for [Zed](https://zed.dev/)
 
 > [!NOTE]
-> This extension is regularly published (https://zed.dev/extensions?q=haml) and can be installed directly from Zed.
+> This extension is regularly published (https://zed.dev/extensions?query=haml) and can be installed directly from Zed.
 >
 > You will likely also want to install the [Ruby extension](https://github.com/zed-extensions/ruby) so that Ruby snippets within your HAML templates are correctly highlighted.
 
