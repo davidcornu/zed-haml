@@ -1,6 +1,6 @@
 name = "Haml"
 grammar = "haml"
 path_suffixes = ["haml", "html.haml"]
-line_comments = ["/ "]
+line_comments = ["-# "]
 auto_indent_using_last_non_empty_line = false
 tab_size = 2
