@@ -8,4 +8,4 @@ repository = "https://github.com/davidcornu/zed-haml"
 
 [grammars.haml]
 repository = "https://github.com/vitallium/tree-sitter-haml"
-rev = "a2af65572be29bb79ef00dd787776b57a82ab16d"
+rev = "3e5bdaef84a7a65bd8e2f8a6f69120b53dac1e94"
