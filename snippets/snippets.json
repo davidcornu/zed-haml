@@ -1,0 +1,61 @@
+{
+  "HAML: HTML5 Boilerplate": {
+    "prefix": "!html5",
+    "description": "Basic HTML5 Boilerplate",
+    "body": [
+      "!!!",
+      "%html{lang: '${1:en}'}",
+      "  %head",
+      "    %meta{content: 'text/html; charset=UTF-8', 'http-equiv': 'Content-Type'}/",
+      "    %meta{charset: 'UTF-8'}/",
+      "    %meta{content: 'IE=edge', 'http-equiv': 'X-UA-Compatible'}/",
+      "    %meta{content: 'width=device-width, initial-scale=1.0', name: 'viewport'}/",
+      "",
+      "    %title ${2:Title}",
+      "",
+      "  %body",
+      "    ${3:= yield}",
+      "$0"
+    ]
+  },
+  "HAML: if": {
+    "prefix": "if",
+    "description": "Multiline if statement",
+    "body": ["- if ${1:condition}", "  $0"]
+  },
+  "HAML: else": {
+    "prefix": "else",
+    "description": "Multiline else statement",
+    "body": ["- else", "  $0"]
+  },
+  "HAML: elsif": {
+    "prefix": "elsif",
+    "description": "Multiline elsif statement",
+    "body": ["- elsif ${1:condition}", "  $0"]
+  },
+  "HAML: unless": {
+    "prefix": "unless",
+    "description": "Multiline unless statement",
+    "body": ["- unless ${1:condition}", "  $0"]
+  },
+  "HAML: each": {
+    "prefix": "each",
+    "description": "Iterate over a collection",
+    "body": [".each do |${1:item| do", "  $0"]
+  },
+  "HAML: Filter JavaScript": {
+    "prefix": ":javascript",
+    "description": "Inline JavaScript Filter Tag",
+    "body": [":javascript", "  $1"]
+  },
+  "HAML: Filter CSS": {
+    "prefix": ":css",
+    "description": "Inline CSS Filter Tag",
+    "body": [":css", "  $1"]
+  },
+  "HAML: Filter Ruby": {
+    "prefix": ":ruby",
+    "description": "Inline Ruby Filter Block",
+    "body": [":ruby", "  $1"]
+  }
+}
