@@ -5,6 +5,7 @@ schema_version = 1
 authors = ["David Cornu <me@davidcornu.com>"]
 description = "Haml template support"
 repository = "https://github.com/davidcornu/zed-haml"
+snippets = "./snippets/snippets.json"
 
 [grammars.haml]
 repository = "https://github.com/vitallium/tree-sitter-haml"
