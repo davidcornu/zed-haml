@@ -1,6 +1,9 @@
 (tag_name) @type
 (ruby_block_run "-" @keyword)
 (ruby_block_output "=" @keyword)
+(ruby_block_output_nuke "!=" @keyword)
+(ruby_block_sanitized "&=" @keyword)
+(ruby_block_preserve "~" @keyword)
 (class) @property
 (id) @property
 
