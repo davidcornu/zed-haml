@@ -1,4 +1,5 @@
 (tag_name) @type
+(inline_ruby_block ["=" "!=" "&=" "~"] @keyword)
 (ruby_block_run "-" @keyword)
 (ruby_block_output "=" @keyword)
 (ruby_block_output_nuke "!=" @keyword)
