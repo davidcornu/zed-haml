@@ -4,7 +4,6 @@
 ; (`%div.card#main= title`), filters their name (`:javascript`), and Ruby
 ; blocks (`-`, `=`, `!=`, `&=`, `~`) their code so control flow
 ; (`- if admin?`, `- @posts.each do |post|`) is visible in the outline.
-
 (tag
   [
     (tag_name) @name
@@ -12,7 +11,12 @@
     (id) @name
   ]+
   (inline_ruby_block
-    ["=" "!=" "&=" "~"] @name
+    [
+      "="
+      "!="
+      "&="
+      "~"
+    ] @name
     (ruby_code) @name)?) @item
 
 (filter

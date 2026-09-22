@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ribru17/ts_query_ls/refs/heads/master/schemas/config.json",
+  "parser_install_directories": ["./grammars"],
+  "language_retrieval_patterns": ["languages/([^/]+)/[^/]+\\.scm"],
+  "valid_captures": {
+    "brackets": {
+      "open": "Captures opening brackets, braces, and quotes.",
+      "close": "Captures closing brackets, braces, and quotes."
+    },
+    "highlights": {
+      "attribute": "An attribute",
+      "boolean": "A boolean value",
+      "comment": "A comment",
+      "comment.doc": "A documentation comment",
+      "constant": "A constant",
+      "constant.builtin": "A built-in constant",
+      "constructor": "A constructor",
+      "embedded": "Embedded content",
+      "emphasis": "Emphasized text",
+      "emphasis.strong": "Strongly emphasized text",
+      "enum": "An enumeration",
+      "function": "A function",
+      "function.builtin": "A built-in function",
+      "function.method": "A method",
+      "function.method.builtin": "A built-in method",
+      "hint": "A hint",
+      "keyword": "A keyword",
+      "keyword.exception": "A keyword for exception handling",
+      "keyword.import": "An import keyword",
+      "label": "A label",
+      "link_text": "Link text",
+      "link_uri": "A link URI",
+      "number": "A numeric value",
+      "operator": "An operator",
+      "predictive": "Predictive text",
+      "preproc": "A preprocessor directive",
+      "primary": "A primary element",
+      "property": "A property",
+      "punctuation": "Punctuation",
+      "punctuation.bracket": "A bracket",
+      "punctuation.delimiter": "A delimiter",
+      "punctuation.list_marker": "A list marker",
+      "punctuation.special": "Special punctuation",
+      "string": "A string literal",
+      "string.escape": "An escaped character in a string",
+      "string.regex": "A regular expression",
+      "string.special": "A special string",
+      "string.special.symbol": "A special symbol",
+      "tag": "A tag",
+      "tag.doctype": "A doctype (e.g., in HTML)",
+      "text.literal": "Literal text",
+      "title": "A title",
+      "type": "A type",
+      "type.super": "A superclass type",
+      "variable": "A variable",
+      "variable.parameter": "A function or method parameter",
+      "variable.special": "A special variable",
+      "variant": "A variant"
+    },
+    "indents": {
+      "indent": "Defines an indentation range using the captured node",
+      "start": "Moves the start of an `@indent` range to the end of the captured node",
+      "end": "Moves the end of an `@indent` range to the start of the captured node",
+      "outdent": "Ends the innermost indentation range at the start of the captured node"
+    },
+    "outline": {
+      "name": "Captures the content of object keys.",
+      "item": "Captures the entire key-value pair.",
+      "context": "Captures elements that provide context for the outline item.",
+      "context.extra": "Captures additional contextual information for the outline item.",
+      "annotation": "Captures nodes that annotate outline item (doc comments, attributes, decorators)."
+    },
+    "textobjects": {
+      "function.around": "An entire function definition or equivalent small section of a file.",
+      "function.inside": "The function body (the stuff within the braces).",
+      "class.around": "An entire class definition or equivalent large section of a file.",
+      "class.inside": "The contents of a class definition.",
+      "comment.around": "An entire comment (e.g. all adjacent line comments, or a block comment).",
+      "comment.inside": "The contents of a comment."
+    }
+  }
+}
