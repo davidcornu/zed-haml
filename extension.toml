@@ -9,4 +9,4 @@ snippets = "./snippets/snippets.json"
 
 [grammars.haml]
 repository = "https://github.com/vitallium/tree-sitter-haml"
-rev = "3e5bdaef84a7a65bd8e2f8a6f69120b53dac1e94"
+rev = "ef9d881dddfd8d2d3b07b3e4f74353142476edc1"
