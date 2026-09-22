@@ -41,7 +41,7 @@
   "HAML: each": {
     "prefix": "each",
     "description": "Iterate over a collection",
-    "body": [".each do |${1:item| do", "  $0"]
+    "body": [".each do |${1:item}| do", "  $0"]
   },
   "HAML: Filter JavaScript": {
     "prefix": ":javascript",
